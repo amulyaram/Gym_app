@@ -8,7 +8,7 @@ filename = 'Model_GYM.pkl'
 model = pickle.load(open(filename, 'rb'))
 
 @app.route('/')
-def man():
+def main():
     return render_template('home.html')
 
 
