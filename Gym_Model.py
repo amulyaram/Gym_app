@@ -22,6 +22,7 @@ print(accuracy_score(y_test, predicted))
 print(classification_report(y_test, predicted))
 print(confusion_matrix(y_test, predicted))
 import pickle
+import streamlit
 pickle.dump(model, open("Model_GYM.pkl", "wb"))
 model1=pickle.load(open("Model_GYM.pkl", "rb"))
 print(model1.predict([[40,5.6,70]]))
