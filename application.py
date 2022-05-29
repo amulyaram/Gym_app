@@ -1,3 +1,5 @@
+from collections import Mapping
+from collections.abc import Mapping
 pip install typing-extensions
 from flask import Flask, request, jsonify,render_template
 import numpy as np
@@ -9,7 +11,7 @@ filename = 'Model_GYM.pkl'
 model = pickle.load(open(filename, 'rb'))
 
 @app.route('/')
-def main():
+def man():
     return render_template('home.html')
 
 
