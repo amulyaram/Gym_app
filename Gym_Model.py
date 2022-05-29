@@ -1,3 +1,5 @@
+from collections import Mapping
+from collections.abc import Mapping
 import numpy as np
 import pandas as pd
 df=pd.read_excel(r'c:\ML\dataGym.xlsx')
