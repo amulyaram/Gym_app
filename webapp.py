@@ -111,7 +111,7 @@ st.write("Maintain a Healthy Weight: [ check right now!](https://www.nhlbi.nih.g
 
 
 st.write("## Thank you for Visiting \nProject by Amulya Ch")
-st.markdown("<h1 style='text-align: right; color: blue; font-size: small;'><a href='https://github.com/Nikhil-Jagtap619/gym_app'>Looking for Source Code?</a></h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: right; color: blue; font-size: small;'><a href='https://github.com/amulyaram/Gym_app'>Looking for Source Code?</a></h1>", unsafe_allow_html=True)
 
 
 # In[19]:
